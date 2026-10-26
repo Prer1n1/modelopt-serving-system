@@ -1,0 +1,13 @@
+{
+  "warmup": false,
+  "ttft_ms": 81.27043803688139,
+  "end_to_end_ms": 1003.2945789862424,
+  "client_tpot_estimate_ms": 19.60450715041193,
+  "usage": {
+    "prompt_tokens": 841,
+    "total_tokens": 888,
+    "completion_tokens": 47
+  },
+  "finish_reason": "stop",
+  "answer": "In transformer LLM inference, the KV cache stores the key and value pairs from the attention mechanism for each token. This allows the model to avoid recomputing these values for previously processed tokens, thus speeding up the inference process."
+}
