@@ -1,0 +1,834 @@
+[
+  {
+    "request_id": 0,
+    "ttft_ms": 39.85444700811058,
+    "end_to_end_ms": 839.1096710693091,
+    "client_tpot_estimate_ms": 13.093977167348688,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 1,
+    "ttft_ms": 30.07095807697624,
+    "end_to_end_ms": 837.7881390042603,
+    "client_tpot_estimate_ms": 13.234957216385132,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 2,
+    "ttft_ms": 36.17419803049415,
+    "end_to_end_ms": 835.7827089494094,
+    "client_tpot_estimate_ms": 13.099912699544802,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 3,
+    "ttft_ms": 41.64622805546969,
+    "end_to_end_ms": 840.8601899864152,
+    "client_tpot_estimate_ms": 13.096334016881883,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 4,
+    "ttft_ms": 39.38227298203856,
+    "end_to_end_ms": 838.3710288908333,
+    "client_tpot_estimate_ms": 13.088882898834223,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 5,
+    "ttft_ms": 35.87890905328095,
+    "end_to_end_ms": 835.8392440713942,
+    "client_tpot_estimate_ms": 13.105148649386441,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 6,
+    "ttft_ms": 41.186682996340096,
+    "end_to_end_ms": 840.1787839829922,
+    "client_tpot_estimate_ms": 13.084879267262295,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 7,
+    "ttft_ms": 38.426617975346744,
+    "end_to_end_ms": 838.8332480099052,
+    "client_tpot_estimate_ms": 13.101782966017103,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 8,
+    "ttft_ms": 40.53606290835887,
+    "end_to_end_ms": 839.5436969585717,
+    "client_tpot_estimate_ms": 13.090004234497124,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 9,
+    "ttft_ms": 41.22068407014012,
+    "end_to_end_ms": 840.2095100609586,
+    "client_tpot_estimate_ms": 13.091559549017498,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 10,
+    "ttft_ms": 41.29912203643471,
+    "end_to_end_ms": 840.5919310171157,
+    "client_tpot_estimate_ms": 13.095857965527102,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 11,
+    "ttft_ms": 36.153479013592005,
+    "end_to_end_ms": 836.0695780720562,
+    "client_tpot_estimate_ms": 13.105212250957265,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 12,
+    "ttft_ms": 41.07579798437655,
+    "end_to_end_ms": 840.0302430381998,
+    "client_tpot_estimate_ms": 13.095646316651255,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 13,
+    "ttft_ms": 42.041898937895894,
+    "end_to_end_ms": 841.047539957799,
+    "client_tpot_estimate_ms": 13.088615166877085,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 14,
+    "ttft_ms": 41.05931299272925,
+    "end_to_end_ms": 840.4092979617417,
+    "client_tpot_estimate_ms": 13.09457573418816,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 15,
+    "ttft_ms": 41.9461359269917,
+    "end_to_end_ms": 841.2102819420397,
+    "client_tpot_estimate_ms": 13.095470550858105,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 16,
+    "ttft_ms": 41.52746091131121,
+    "end_to_end_ms": 840.8108069561422,
+    "client_tpot_estimate_ms": 13.093976334979137,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 17,
+    "ttft_ms": 40.902709937654436,
+    "end_to_end_ms": 839.9259370053187,
+    "client_tpot_estimate_ms": 13.090998050756752,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 18,
+    "ttft_ms": 29.241921962238848,
+    "end_to_end_ms": 829.3413349892944,
+    "client_tpot_estimate_ms": 13.10858094948344,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 19,
+    "ttft_ms": 36.933871917426586,
+    "end_to_end_ms": 836.2703169696033,
+    "client_tpot_estimate_ms": 13.098984134073058,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 20,
+    "ttft_ms": 42.061576968990266,
+    "end_to_end_ms": 840.9573149401695,
+    "client_tpot_estimate_ms": 13.090344099327922,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 21,
+    "ttft_ms": 29.066781979054213,
+    "end_to_end_ms": 830.0620799418539,
+    "client_tpot_estimate_ms": 13.128471766443303,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 22,
+    "ttft_ms": 41.6083219461143,
+    "end_to_end_ms": 840.5654609669,
+    "client_tpot_estimate_ms": 13.089952000882477,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 23,
+    "ttft_ms": 44.17316697072238,
+    "end_to_end_ms": 843.3416209882125,
+    "client_tpot_estimate_ms": 13.090482782960558,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 24,
+    "ttft_ms": 42.00079699512571,
+    "end_to_end_ms": 841.2598670693114,
+    "client_tpot_estimate_ms": 13.094580901088193,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 25,
+    "ttft_ms": 41.20465996675193,
+    "end_to_end_ms": 840.6496969982982,
+    "client_tpot_estimate_ms": 13.094898033887148,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 26,
+    "ttft_ms": 41.62776097655296,
+    "end_to_end_ms": 840.2213079389185,
+    "client_tpot_estimate_ms": 13.084508866692582,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 27,
+    "ttft_ms": 41.072994004935026,
+    "end_to_end_ms": 840.2678970014676,
+    "client_tpot_estimate_ms": 13.091948967970287,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 28,
+    "ttft_ms": 38.537763990461826,
+    "end_to_end_ms": 838.3597119245678,
+    "client_tpot_estimate_ms": 13.096718082670122,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 29,
+    "ttft_ms": 40.966956061311066,
+    "end_to_end_ms": 840.0739690987393,
+    "client_tpot_estimate_ms": 13.092259434051812,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 30,
+    "ttft_ms": 42.63850802090019,
+    "end_to_end_ms": 841.9952529948205,
+    "client_tpot_estimate_ms": 13.092660715725893,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 31,
+    "ttft_ms": 41.41198890283704,
+    "end_to_end_ms": 840.384941897355,
+    "client_tpot_estimate_ms": 13.090102234855294,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 32,
+    "ttft_ms": 38.03724702447653,
+    "end_to_end_ms": 837.2361459769309,
+    "client_tpot_estimate_ms": 13.09384413373967,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 33,
+    "ttft_ms": 42.168195941485465,
+    "end_to_end_ms": 841.6615349706262,
+    "client_tpot_estimate_ms": 13.112645668055242,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 34,
+    "ttft_ms": 36.321177962236106,
+    "end_to_end_ms": 835.1851180195808,
+    "client_tpot_estimate_ms": 13.08452875042955,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 35,
+    "ttft_ms": 42.58736199699342,
+    "end_to_end_ms": 841.5329240961,
+    "client_tpot_estimate_ms": 13.090481950591007,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 36,
+    "ttft_ms": 29.239878989756107,
+    "end_to_end_ms": 830.0583339296281,
+    "client_tpot_estimate_ms": 13.120821032983562,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 37,
+    "ttft_ms": 42.71836706902832,
+    "end_to_end_ms": 842.1547310426831,
+    "client_tpot_estimate_ms": 13.105170366664728,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 38,
+    "ttft_ms": 41.46128299180418,
+    "end_to_end_ms": 840.4612459708005,
+    "client_tpot_estimate_ms": 13.088041315010438,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 39,
+    "ttft_ms": 38.41377794742584,
+    "end_to_end_ms": 838.1091880146414,
+    "client_tpot_estimate_ms": 13.09688666757817,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 40,
+    "ttft_ms": 41.00162792019546,
+    "end_to_end_ms": 839.6068719448522,
+    "client_tpot_estimate_ms": 13.093193317763507,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 41,
+    "ttft_ms": 31.335953972302377,
+    "end_to_end_ms": 831.8881519371644,
+    "client_tpot_estimate_ms": 13.113277283264324,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 42,
+    "ttft_ms": 42.76301292702556,
+    "end_to_end_ms": 840.9157729474828,
+    "client_tpot_estimate_ms": 13.077498617349193,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 43,
+    "ttft_ms": 31.043548020534217,
+    "end_to_end_ms": 831.5308589953929,
+    "client_tpot_estimate_ms": 13.113440365608161,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 44,
+    "ttft_ms": 42.496957001276314,
+    "end_to_end_ms": 841.6562780039385,
+    "client_tpot_estimate_ms": 13.091656883868078,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 45,
+    "ttft_ms": 37.85376402083784,
+    "end_to_end_ms": 837.2855399502441,
+    "client_tpot_estimate_ms": 13.099853766228383,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 46,
+    "ttft_ms": 37.532183923758566,
+    "end_to_end_ms": 836.7733869235963,
+    "client_tpot_estimate_ms": 13.098566350527108,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 47,
+    "ttft_ms": 37.96329605393112,
+    "end_to_end_ms": 836.7713030893356,
+    "client_tpot_estimate_ms": 13.088692132926857,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 48,
+    "ttft_ms": 42.056679958477616,
+    "end_to_end_ms": 841.064624954015,
+    "client_tpot_estimate_ms": 13.089142966782674,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 49,
+    "ttft_ms": 41.985395015217364,
+    "end_to_end_ms": 841.4175020297989,
+    "client_tpot_estimate_ms": 13.10307471624886,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 50,
+    "ttft_ms": 41.08454997185618,
+    "end_to_end_ms": 840.4554870212451,
+    "client_tpot_estimate_ms": 13.093720116497328,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 51,
+    "ttft_ms": 41.88798903487623,
+    "end_to_end_ms": 841.2024510325864,
+    "client_tpot_estimate_ms": 13.096967615031948,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 52,
+    "ttft_ms": 42.27325296960771,
+    "end_to_end_ms": 841.7305479524657,
+    "client_tpot_estimate_ms": 13.092983849734688,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 53,
+    "ttft_ms": 45.49683001823723,
+    "end_to_end_ms": 844.6729460265487,
+    "client_tpot_estimate_ms": 13.093179982388392,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 54,
+    "ttft_ms": 40.958553086966276,
+    "end_to_end_ms": 839.7631850093603,
+    "client_tpot_estimate_ms": 13.097841098594168,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 55,
+    "ttft_ms": 46.617530984804034,
+    "end_to_end_ms": 845.5718460027128,
+    "client_tpot_estimate_ms": 13.090645533520728,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 56,
+    "ttft_ms": 38.524734089151025,
+    "end_to_end_ms": 838.0052730208263,
+    "client_tpot_estimate_ms": 13.094646165457865,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 57,
+    "ttft_ms": 39.43286801222712,
+    "end_to_end_ms": 836.1407839693129,
+    "client_tpot_estimate_ms": 13.049607667683935,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 58,
+    "ttft_ms": 46.067479997873306,
+    "end_to_end_ms": 845.1365759829059,
+    "client_tpot_estimate_ms": 13.096243550535291,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 59,
+    "ttft_ms": 43.35119004826993,
+    "end_to_end_ms": 842.7088171010837,
+    "client_tpot_estimate_ms": 13.093882032747691,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 60,
+    "ttft_ms": 41.69512097723782,
+    "end_to_end_ms": 840.8636059612036,
+    "client_tpot_estimate_ms": 13.087468633117775,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 61,
+    "ttft_ms": 44.410740956664085,
+    "end_to_end_ms": 843.1803799467161,
+    "client_tpot_estimate_ms": 13.085756233582893,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 62,
+    "ttft_ms": 40.05937196779996,
+    "end_to_end_ms": 839.3610949860886,
+    "client_tpot_estimate_ms": 13.096387084806338,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  },
+  {
+    "request_id": 63,
+    "ttft_ms": 44.67028798535466,
+    "end_to_end_ms": 843.2966329855844,
+    "client_tpot_estimate_ms": 13.090749350764478,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 118,
+      "completion_tokens": 61
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to reuse these tensors in subsequent tokens without re-computing them, thus saving computation time. By avoiding recomputation, the model can efficiently handle long sequences without a significant increase in computational cost."
+  }
+]

@@ -1,0 +1,284 @@
+{
+  "source_model": "Qwen/Qwen2.5-7B-Instruct",
+  "source_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "modelopt": "0.46.1",
+  "transformers": "5.14.1",
+  "torch": "2.13.0+cu132",
+  "gpu": "NVIDIA L40S",
+  "recipe": "FP8_DEFAULT_CFG",
+  "quantization_config": {
+    "quant_cfg": [
+      {
+        "quantizer_name": "*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*weight_quantizer",
+        "cfg": {
+          "num_bits": [
+            4,
+            3
+          ],
+          "axis": null
+        }
+      },
+      {
+        "quantizer_name": "*input_quantizer",
+        "cfg": {
+          "num_bits": [
+            4,
+            3
+          ],
+          "axis": null
+        }
+      },
+      {
+        "quantizer_name": "*block_sparse_moe.gate*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*linear_attn.conv1d*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*linear_attn.in_proj_a*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*linear_attn.in_proj_b*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*lm_head*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*mixer.conv1d*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*mlp.gate.*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*mlp.shared_expert_gate.*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*output_layer*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*proj_out.*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*router*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "mtp.*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "output.*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*embed_vision*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*vision_tower*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*visual*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*vision_model*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*multi_modal_projector*",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*",
+        "parent_class": "nn.BatchNorm1d",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*",
+        "parent_class": "nn.BatchNorm2d",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*",
+        "parent_class": "nn.BatchNorm3d",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*",
+        "parent_class": "nn.LeakyReLU",
+        "enable": false
+      },
+      {
+        "quantizer_name": "*",
+        "parent_class": "nn.Embedding",
+        "enable": false
+      }
+    ],
+    "algorithm": "max"
+  },
+  "calibration_questions": 128,
+  "calibration_sha256": "e3c0850fbbd26ca5a565f8340febd874c35f1b75717752eedd300ef36e5166b2",
+  "calibration_max_length": 512,
+  "calibration_token_lengths": [
+    122,
+    71,
+    103,
+    85,
+    100,
+    79,
+    123,
+    113,
+    55,
+    82,
+    72,
+    70,
+    88,
+    67,
+    67,
+    126,
+    83,
+    83,
+    67,
+    117,
+    48,
+    145,
+    76,
+    66,
+    69,
+    104,
+    88,
+    75,
+    92,
+    81,
+    75,
+    61,
+    76,
+    76,
+    154,
+    76,
+    107,
+    80,
+    73,
+    113,
+    70,
+    64,
+    103,
+    80,
+    111,
+    69,
+    66,
+    97,
+    97,
+    88,
+    92,
+    84,
+    69,
+    121,
+    114,
+    61,
+    78,
+    75,
+    61,
+    140,
+    79,
+    70,
+    71,
+    72,
+    93,
+    90,
+    84,
+    74,
+    68,
+    115,
+    80,
+    76,
+    96,
+    75,
+    89,
+    89,
+    110,
+    81,
+    132,
+    121,
+    72,
+    70,
+    78,
+    77,
+    92,
+    68,
+    139,
+    64,
+    105,
+    76,
+    73,
+    68,
+    138,
+    74,
+    104,
+    89,
+    92,
+    68,
+    68,
+    57,
+    86,
+    77,
+    72,
+    84,
+    97,
+    100,
+    94,
+    81,
+    82,
+    62,
+    72,
+    83,
+    75,
+    80,
+    77,
+    139,
+    73,
+    82,
+    71,
+    116,
+    87,
+    115,
+    97,
+    114,
+    81,
+    70,
+    79,
+    163
+  ],
+  "calibration_use_cache": false,
+  "export_directory": "/tmp/modelopt-qwen2.5-7b-fp8",
+  "exported_quantization_config": {
+    "producer": {
+      "name": "modelopt",
+      "version": "0.46.1"
+    },
+    "quantization": {
+      "quant_algo": "FP8",
+      "kv_cache_quant_algo": null,
+      "exclude_modules": [
+        "lm_head",
+        "model.embed_tokens"
+      ]
+    }
+  }
+}

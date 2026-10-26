@@ -1,0 +1,14 @@
+{
+  "model": "baseline",
+  "label": "fp8",
+  "dataset_sha256": "615089880adaada9b7741e2a6ef1a22653b3ec965937c0a05794c7117d8a709b",
+  "questions": 100,
+  "correct": 91,
+  "accuracy_percent": 91.0,
+  "parse_failures": 0,
+  "truncated_responses": 0,
+  "temperature": 0,
+  "max_tokens": 512,
+  "instruction": "Solve the following math problem. Explain your reasoning briefly. End your response with a separate line containing #### followed by only the final numeric answer, for example: #### 18",
+  "wall_seconds": 258.14115019794554
+}

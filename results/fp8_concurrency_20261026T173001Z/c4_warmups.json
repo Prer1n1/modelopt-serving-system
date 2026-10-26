@@ -1,0 +1,54 @@
+[
+  {
+    "request_id": 0,
+    "ttft_ms": 51.37606605421752,
+    "end_to_end_ms": 643.1450289674103,
+    "client_tpot_estimate_ms": 12.84837255306128,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 103,
+      "completion_tokens": 46
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for efficient processing. This avoids recomputing these tensors for previously processed tokens, speeding up inference. Thus, it significantly reduces computational overhead in sequential token generation."
+  },
+  {
+    "request_id": 1,
+    "ttft_ms": 53.769074962474406,
+    "end_to_end_ms": 509.1402550460771,
+    "client_tpot_estimate_ms": 12.999762678244974,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 92,
+      "completion_tokens": 35
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This avoids recomputing these tensors for previously processed tokens, thus speeding up inference."
+  },
+  {
+    "request_id": 2,
+    "ttft_ms": 53.18520404398441,
+    "end_to_end_ms": 508.8061570422724,
+    "client_tpot_estimate_ms": 12.999106677906479,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 92,
+      "completion_tokens": 35
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This avoids recomputing these tensors for previously processed tokens, thus speeding up inference."
+  },
+  {
+    "request_id": 3,
+    "ttft_ms": 52.45099891908467,
+    "end_to_end_ms": 508.249576902017,
+    "client_tpot_estimate_ms": 12.994463295292329,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 92,
+      "completion_tokens": 35
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This avoids recomputing these tensors for previously processed tokens, thus speeding up inference."
+  }
+]
