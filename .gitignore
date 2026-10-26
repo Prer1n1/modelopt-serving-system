@@ -1,0 +1,28 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large model artifacts
+models/
+checkpoints/
+artifacts/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Archives and logs
+*.tar.gz
+*.zip
+*.log

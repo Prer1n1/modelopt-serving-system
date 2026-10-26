@@ -1,0 +1,49 @@
+{
+  "python": "3.11.17",
+  "vllm": "0.32.0",
+  "torch": "2.13.0+cu132",
+  "torch_cuda_build": "13.2",
+  "gpu": "NVIDIA L40S",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "cached_main_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "model_config": {
+    "architectures": [
+      "Qwen2ForCausalLM"
+    ],
+    "attention_dropout": 0.0,
+    "bos_token_id": 151643,
+    "eos_token_id": 151645,
+    "hidden_act": "silu",
+    "hidden_size": 3584,
+    "initializer_range": 0.02,
+    "intermediate_size": 18944,
+    "max_position_embeddings": 32768,
+    "max_window_layers": 28,
+    "model_type": "qwen2",
+    "num_attention_heads": 28,
+    "num_hidden_layers": 28,
+    "num_key_value_heads": 4,
+    "rms_norm_eps": 1e-06,
+    "rope_theta": 1000000.0,
+    "sliding_window": 131072,
+    "tie_word_embeddings": false,
+    "torch_dtype": "bfloat16",
+    "transformers_version": "4.43.1",
+    "use_cache": true,
+    "use_sliding_window": false,
+    "vocab_size": 152064
+  },
+  "serving_settings": {
+    "served_model_name": "baseline",
+    "dtype": "bfloat16",
+    "kv_cache_dtype": "auto",
+    "max_model_len": 4096,
+    "max_num_seqs": 16,
+    "gpu_memory_utilization": 0.8
+  },
+  "notes": [
+    "Serving settings transcribed from the instructed startup command.",
+    "Cached main revision should be checked against startup logs.",
+    "Prefix caching and other engine defaults have not been recorded yet."
+  ]
+}
