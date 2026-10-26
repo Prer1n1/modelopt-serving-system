@@ -1,0 +1,26 @@
+{
+  "request": {
+    "model": "baseline",
+    "messages": [
+      {
+        "role": "user",
+        "content": "In transformer LLM inference, explain what the KV cache stores and why it avoids recomputing earlier tokens. Answer in three short sentences."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 128,
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "ttft_seconds": 0.049288284964859486,
+  "end_to_end_seconds": 0.8696177279343829,
+  "client_tpot_estimate_seconds": 0.019514458560634676,
+  "usage": {
+    "prompt_tokens": 57,
+    "total_tokens": 99,
+    "completion_tokens": 42
+  },
+  "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+}

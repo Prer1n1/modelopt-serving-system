@@ -1,0 +1,44 @@
+{
+  "warmup_requests": 3,
+  "measured_requests": 20,
+  "concurrency": 1,
+  "metrics": {
+    "ttft_ms": {
+      "median": 48.608120472636074,
+      "minimum": 46.81687999982387,
+      "maximum": 50.22530199494213
+    },
+    "end_to_end_ms": {
+      "median": 868.681401014328,
+      "minimum": 866.6050350293517,
+      "maximum": 869.9448449769989
+    },
+    "client_tpot_estimate_ms": {
+      "median": 19.50601182832587,
+      "minimum": 19.491208291317268,
+      "maximum": 19.524829146997412
+    }
+  },
+  "output_token_counts": [
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42
+  ]
+}

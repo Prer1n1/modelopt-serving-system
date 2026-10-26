@@ -14,9 +14,9 @@
       "include_usage": true
     }
   },
-  "ttft_seconds": 0.0722003139089793,
-  "end_to_end_seconds": 0.891330380924046,
-  "client_tpot_estimate_seconds": 0.019504306536940175,
+  "ttft_seconds": 0.04720889497548342,
+  "end_to_end_seconds": 0.8673591499682516,
+  "client_tpot_estimate_seconds": 0.01951072300023331,
   "usage": {
     "prompt_tokens": 57,
     "total_tokens": 99,

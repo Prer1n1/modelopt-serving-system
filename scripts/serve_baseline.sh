@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+export PATH="/tmp/modelopt-serving-system-venv/bin:$PATH"
+
 export HF_HOME="/tmp/modelopt-serving-system-hf"
 
 exec /tmp/modelopt-serving-system-venv/bin/vllm serve \
