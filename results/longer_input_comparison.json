@@ -1,0 +1,70 @@
+{
+  "medium": {
+    "bf16_source": "bf16_fixed128_medium_concurrency_20261026T201234Z",
+    "fp8_source": "fp8_fixed128_medium_concurrency_20261026T202634Z",
+    "results": {
+      "1": {
+        "prompt_tokens": [
+          841
+        ],
+        "bf16_output_tokens_per_second": 48.97565013956041,
+        "fp8_output_tokens_per_second": 72.74667342810922,
+        "throughput_speedup": 1.4853641191247324,
+        "bf16_ttft_ms": 72.046818502713,
+        "fp8_ttft_ms": 57.91167449206114,
+        "bf16_tpot_ms": 20.010810854155423,
+        "fp8_tpot_ms": 13.393306444714389,
+        "bf16_end_to_end_ms": 2613.643068470992,
+        "fp8_end_to_end_ms": 1758.9575559832156
+      },
+      "16": {
+        "prompt_tokens": [
+          841
+        ],
+        "bf16_output_tokens_per_second": 548.2316975729841,
+        "fp8_output_tokens_per_second": 793.5974767458665,
+        "throughput_speedup": 1.44755854187037,
+        "bf16_ttft_ms": 394.98164696851745,
+        "fp8_ttft_ms": 293.73118351213634,
+        "bf16_tpot_ms": 25.745804826765664,
+        "fp8_tpot_ms": 17.556306495840886,
+        "bf16_end_to_end_ms": 3703.025543014519,
+        "fp8_end_to_end_ms": 2557.270646968391
+      }
+    }
+  },
+  "long": {
+    "bf16_source": "bf16_fixed128_long_concurrency_20261026T201732Z",
+    "fp8_source": "fp8_fixed128_long_concurrency_20261026T202901Z",
+    "results": {
+      "1": {
+        "prompt_tokens": [
+          3145
+        ],
+        "bf16_output_tokens_per_second": 45.3882025279806,
+        "fp8_output_tokens_per_second": 66.44839793708677,
+        "throughput_speedup": 1.4640015298275608,
+        "bf16_ttft_ms": 254.25869697937742,
+        "fp8_ttft_ms": 200.31682949047536,
+        "bf16_tpot_ms": 20.220020795094335,
+        "fp8_tpot_ms": 13.590342334497308,
+        "bf16_end_to_end_ms": 2822.269131487701,
+        "fp8_end_to_end_ms": 1926.5260130050592
+      },
+      "16": {
+        "prompt_tokens": [
+          3145
+        ],
+        "bf16_output_tokens_per_second": 299.2598377541367,
+        "fp8_output_tokens_per_second": 403.8734069320441,
+        "throughput_speedup": 1.349574369761755,
+        "bf16_ttft_ms": 748.2355839456432,
+        "fp8_ttft_ms": 628.6123504978605,
+        "bf16_tpot_ms": 47.227902944276735,
+        "fp8_tpot_ms": 34.85703077185606,
+        "bf16_end_to_end_ms": 6729.556964477524,
+        "fp8_end_to_end_ms": 5013.726072444115
+      }
+    }
+  }
+}

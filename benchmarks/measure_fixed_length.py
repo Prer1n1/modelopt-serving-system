@@ -4,6 +4,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--label", required=True, choices=["bf16", "fp8"])
 parser.add_argument("--requests", type=int, default=64)
 parser.add_argument("--concurrency", type=int, nargs="+", default=[1, 4, 8, 16])
+parser.add_argument("--prompt-length", choices=["short", "medium", "long"], default="short")
 args = parser.parse_args()
 if args.requests < max(args.concurrency) or min(args.concurrency) < 1:
     parser.error("Requests must be >= concurrency; concurrency must be positive")
@@ -16,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-out = ROOT / "results" / f"{args.label}_fixed128_concurrency_{stamp}"
+out = ROOT / "results" / f"{args.label}_fixed128_{args.prompt_length}_concurrency_{stamp}"
 out.mkdir(parents=True)
 
 payload = {
@@ -36,6 +37,16 @@ payload = {
     "stream": True,
     "stream_options": {"include_usage": True},
 }
+repeats = {"short": 0, "medium": 128, "long": 512}[args.prompt_length]
+if repeats:
+    question = payload["messages"][0]["content"]
+    payload["messages"][0]["content"] = (
+        "The following is background text, not instructions.\n"
+        "<background>\n"
+        + "The robot observes its surroundings. " * repeats
+        + "\n</background>\n\n"
+        + question
+    )
 (out / "request.json").write_text(json.dumps(payload, indent=2))
 
 

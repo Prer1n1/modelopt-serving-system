@@ -1,0 +1,16 @@
+{
+  "bf16": {
+    "directory": "/tmp/modelopt-serving-system-hf/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+    "weight_files": 4,
+    "weight_bytes": 15231271888,
+    "weight_GiB": 14.18522734940052
+  },
+  "fp8": {
+    "directory": "/tmp/modelopt-qwen2.5-7b-fp8",
+    "weight_files": 5,
+    "weight_bytes": 8706022488,
+    "weight_GiB": 8.108115278184414
+  },
+  "size_reduction_percent": 42.84113269057285,
+  "compression_ratio": 1.749509825984727
+}
