@@ -1,0 +1,54 @@
+[
+  {
+    "request_id": 0,
+    "ttft_ms": 55.060029961168766,
+    "end_to_end_ms": 914.3425408983603,
+    "client_tpot_estimate_ms": 20.43877085443677,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 1,
+    "ttft_ms": 54.44223899394274,
+    "end_to_end_ms": 913.8709380058572,
+    "client_tpot_estimate_ms": 20.437867318211897,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 2,
+    "ttft_ms": 53.65626700222492,
+    "end_to_end_ms": 913.478041999042,
+    "client_tpot_estimate_ms": 20.442010315203266,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 3,
+    "ttft_ms": 53.001831052824855,
+    "end_to_end_ms": 912.6796220662072,
+    "client_tpot_estimate_ms": 20.43826719348478,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  }
+]

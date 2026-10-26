@@ -1,0 +1,210 @@
+[
+  {
+    "request_id": 0,
+    "ttft_ms": 68.20075202267617,
+    "end_to_end_ms": 953.7779460661113,
+    "client_tpot_estimate_ms": 21.076768389675856,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 1,
+    "ttft_ms": 115.99920503795147,
+    "end_to_end_ms": 974.2875139927492,
+    "client_tpot_estimate_ms": 20.447548072807855,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 2,
+    "ttft_ms": 115.65112601965666,
+    "end_to_end_ms": 973.7800770672038,
+    "client_tpot_estimate_ms": 20.421133583934022,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 3,
+    "ttft_ms": 115.27446494437754,
+    "end_to_end_ms": 973.6839639954269,
+    "client_tpot_estimate_ms": 20.413976829930593,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 4,
+    "ttft_ms": 114.86481397878379,
+    "end_to_end_ms": 973.323686979711,
+    "client_tpot_estimate_ms": 20.42126670627423,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 5,
+    "ttft_ms": 114.46605995297432,
+    "end_to_end_ms": 972.9745369404554,
+    "client_tpot_estimate_ms": 20.40416390419279,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 6,
+    "ttft_ms": 113.42261405661702,
+    "end_to_end_ms": 971.6186950681731,
+    "client_tpot_estimate_ms": 20.41868163306811,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 7,
+    "ttft_ms": 113.16541000269353,
+    "end_to_end_ms": 971.2154340231791,
+    "client_tpot_estimate_ms": 20.40193473250128,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 8,
+    "ttft_ms": 112.84820805303752,
+    "end_to_end_ms": 971.3683020090684,
+    "client_tpot_estimate_ms": 20.405592365621974,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 9,
+    "ttft_ms": 113.09746897313744,
+    "end_to_end_ms": 971.2915680138394,
+    "client_tpot_estimate_ms": 20.396003439999753,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 10,
+    "ttft_ms": 112.17994207981974,
+    "end_to_end_ms": 970.8987129852176,
+    "client_tpot_estimate_ms": 20.389701827520096,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 11,
+    "ttft_ms": 111.3791570533067,
+    "end_to_end_ms": 970.1079530641437,
+    "client_tpot_estimate_ms": 20.411135268215908,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 12,
+    "ttft_ms": 111.37905705254525,
+    "end_to_end_ms": 969.5392049616203,
+    "client_tpot_estimate_ms": 20.389985193771015,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 13,
+    "ttft_ms": 110.69771100301296,
+    "end_to_end_ms": 969.2863681120798,
+    "client_tpot_estimate_ms": 20.387943368405104,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 14,
+    "ttft_ms": 110.55812297854573,
+    "end_to_end_ms": 968.8193319598213,
+    "client_tpot_estimate_ms": 20.391246096639918,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  },
+  {
+    "request_id": 15,
+    "ttft_ms": 109.94384798686951,
+    "end_to_end_ms": 968.4790049213916,
+    "client_tpot_estimate_ms": 20.393939853486856,
+    "usage": {
+      "prompt_tokens": 57,
+      "total_tokens": 99,
+      "completion_tokens": 42
+    },
+    "finish_reason": "stop",
+    "answer": "The KV cache stores the key and value tensors from the attention mechanism for each token. This allows the model to avoid recomputing these tensors for previously processed tokens during inference, thus speeding up the process."
+  }
+]

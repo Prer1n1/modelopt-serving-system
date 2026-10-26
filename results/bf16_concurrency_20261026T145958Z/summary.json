@@ -1,0 +1,114 @@
+{
+  "1": {
+    "max_concurrency": 1,
+    "measured_requests": 64,
+    "wall_seconds": 55.652690757997334,
+    "output_tokens_per_second": 48.29955143927578,
+    "requests_per_second": 1.1499893199827567,
+    "prompt_token_counts": [
+      57
+    ],
+    "output_token_counts": [
+      42
+    ],
+    "ttft_ms": {
+      "median": 49.02340000262484,
+      "minimum": 46.47658299654722,
+      "maximum": 54.432753939181566
+    },
+    "end_to_end_ms": {
+      "median": 869.2026014905423,
+      "minimum": 866.2927730474621,
+      "maximum": 876.6922869253904
+    },
+    "client_tpot_estimate_ms": {
+      "median": 19.506961354281664,
+      "minimum": 19.474747488502324,
+      "maximum": 19.65437429423285
+    }
+  },
+  "4": {
+    "max_concurrency": 4,
+    "measured_requests": 64,
+    "wall_seconds": 14.614812870044261,
+    "output_tokens_per_second": 183.92298443379653,
+    "requests_per_second": 4.379118676995156,
+    "prompt_token_counts": [
+      57
+    ],
+    "output_token_counts": [
+      42
+    ],
+    "ttft_ms": {
+      "median": 53.37032047100365,
+      "minimum": 50.7282119942829,
+      "maximum": 59.38343598973006
+    },
+    "end_to_end_ms": {
+      "median": 913.122532016132,
+      "minimum": 910.576876020059,
+      "maximum": 919.179362943396
+    },
+    "client_tpot_estimate_ms": {
+      "median": 20.434468595606344,
+      "minimum": 20.38796146388915,
+      "maximum": 20.445184804862592
+    }
+  },
+  "8": {
+    "max_concurrency": 8,
+    "measured_requests": 64,
+    "wall_seconds": 7.446164202061482,
+    "output_tokens_per_second": 360.99123348043054,
+    "requests_per_second": 8.59502936858168,
+    "prompt_token_counts": [
+      57
+    ],
+    "output_token_counts": [
+      42
+    ],
+    "ttft_ms": {
+      "median": 71.50527852354571,
+      "minimum": 57.17343103606254,
+      "maximum": 99.74467195570469
+    },
+    "end_to_end_ms": {
+      "median": 929.1194719844498,
+      "minimum": 910.6694849906489,
+      "maximum": 952.442295034416
+    },
+    "client_tpot_estimate_ms": {
+      "median": 20.281431377331565,
+      "minimum": 20.21697799890961,
+      "maximum": 20.521968560543183
+    }
+  },
+  "16": {
+    "max_concurrency": 16,
+    "measured_requests": 64,
+    "wall_seconds": 3.939133281004615,
+    "output_tokens_per_second": 682.3836129034119,
+    "requests_per_second": 16.247228878652663,
+    "prompt_token_counts": [
+      57
+    ],
+    "output_token_counts": [
+      42
+    ],
+    "ttft_ms": {
+      "median": 119.72989747300744,
+      "minimum": 66.54729600995779,
+      "maximum": 127.16097699012607
+    },
+    "end_to_end_ms": {
+      "median": 980.5829449906014,
+      "minimum": 954.1885079815984,
+      "maximum": 994.472618913278
+    },
+    "client_tpot_estimate_ms": {
+      "median": 20.441006390639103,
+      "minimum": 20.39268336588199,
+      "maximum": 21.38909456183816
+    }
+  }
+}
